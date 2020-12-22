@@ -289,8 +289,8 @@ class PlayGround extends HookWidget {
               ),
             ),
           ),
-          Positioned(right: 16, bottom: 16, child: _leftControls()),
-          Positioned(left: 16, bottom: 16, child: _rightControls()),
+          Positioned(left: 16, bottom: 16, child: _leftControls()),
+          Positioned(right: 16, bottom: 16, child: _rightControls()),
           Container(
             color: backgroundAnimation.value == "stopped"
                 ? Colors.black.withOpacity(0.5)
